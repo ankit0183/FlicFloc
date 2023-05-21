@@ -31,7 +31,7 @@ function ourwork() {
 
           <div className="col-lg-8 col-12 text-center">
             <div className="about-text-wrap">
-              <img src="images/smd-1.svg" className="img-fluid" alt="Social Media Design 1" />
+              <img src="images/smd-1.jpg" className="img-fluid" alt="Social Media Design 1" />
             </div>
           </div>
 
