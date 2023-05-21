@@ -21,7 +21,8 @@ function NavBar() {
     return (
         <>
 		
-                <Navbar className='bg1 navbar-expand-lg navbar navbar-inverse navbar-static-top'  navbar-right
+                    <Navbar className='bg1 navbar-expand-lg navbar navbar-inverse navbar-static-top' navbar-right
+                            style={{paddingRight:"28px"}}
                  >
                     <NavbarBrand href="/"
                     

@@ -14,12 +14,8 @@ const home = () => {
             <div className="col-12 mt-auto mb-5 text-center">
               <p className="text-white cormorant-head home_p">Helping you reach<br />the Right Audience</p>
 
-              <a className="btn custom-btn smoothscroll" href="#">
-                Contact
-              </a>
-              <a className="btn custom-border-btn smoothscroll" href="services.html">
-                Know More
-              </a>
+                <a className="btn border border-primary btn-danger" href="./" role="button">Contact</a>
+                  <a className="btn border border-primary btn-danger" style={{marginLeft: "35px"}} href="./services" role="button">Know More</a>
             </div>
           </div>
         </div>

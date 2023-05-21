@@ -123,7 +123,8 @@ const about = () => {
           <div className="row">
             <div className="col-12 mt-auto mb-5 text-center">
               <p className="text-white cormorant-head">Need an Awesome Idea?</p>
-              <a className="btn custom-btn smoothscroll text-pink" href="#">Connect</a>
+               <a className="btn border border-primary btn-danger" href="./" role="button">Contact</a>
+                 
             </div>
           </div>
         </div>
