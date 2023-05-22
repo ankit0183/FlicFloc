@@ -21,8 +21,13 @@ function NavBar() {
     return (
         <>
 		
-                    <Navbar className='bg1 navbar-expand-lg navbar navbar-inverse navbar-static-top' navbar-right
-                            style={{paddingRight:"28px"}}
+                    <Navbar className='bg1 navbar-expand-lg navbar navbar-inverse' fixed="top" navbar-right 
+                            style={{paddingRight:"28px",
+               
+               backgroundImage:
+               'url("https://flicfloc.in/images/bg.jpg")',
+               
+               backgroundRepeat: "no-repeat",}}
                  >
                     <NavbarBrand href="/"
                     
@@ -42,17 +47,17 @@ function NavBar() {
 					<Nav className="navbar-nav align-items-lg-center ms-auto me-lg-5" navbar>
                            < li className="nav-item">
                                 
-                                <Link className="nav-link inactive" href="/"> Home</Link>
+                                <Link className="nav-link fs-5 inactive" href="/"> Home</Link>
                         </li>
                         < li className="nav-item">
                                 
-                                <Link className="nav-link inactive" href="/services"> SERVICES</Link>
+                                <Link className="nav-link fs-6 inactive" href="/services"> SERVICES</Link>
                         </li>< li className="nav-item">
                                 
-                                <Link className="nav-link inactive" href="/ourwork"> OUR WORK</Link>
+                                <Link className="nav-link fs-6 inactive" href="/ourwork"> OUR WORK</Link>
                         </li>< li className="nav-item">
                                 
-                                <Link className="nav-link inactive" href="/about"> ABOUT</Link>
+                                <Link className="nav-link  fs-6 inactive" href="/about"> ABOUT</Link>
                         </li>
                         
 					</Nav>
